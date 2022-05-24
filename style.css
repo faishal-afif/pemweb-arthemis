@@ -1,0 +1,116 @@
+
+h1.title {
+    position: absolute;
+    left: 50px;
+    top: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    width: 70%;
+    margin: auto;
+    background-color: paleturquoise;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a:visited {
+    color: black;
+}
+
+#navigation {
+    float: center;
+    display: block;
+    position: absolute;
+    right: 60px;
+    top: 25px;
+    background-color: blue;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+p {
+    font-size: 110%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#contents {
+    float: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: paleturquoise;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   
+}
+
+li {
+    float: left;
+}
+
+li a:before, li a:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+li a {
+    display: block;
+    position: relative;
+    letter-spacing: 0.5px; 
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Blinker';
+} 
+
+li a:after {
+    content: "";
+    position: absolute;
+    background-color: #ff3c78;
+    height: 3px;
+    width: 0;
+    left: 25px;
+    bottom: 10px;
+    transition: 0.25s;
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: none;
+    text-decoration-color: black;
+    color: black;
+}
+
+li a.login:hover {
+    text-decoration: none;
+    text-decoration-color: white;
+    color: white;
+}
+
+a.login {
+    border: 10px;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+}
+
+li a:hover:after {
+    width: 30%;
+}
+
+footer {
+    text-align: center;
+}
+
+h3.desc {
+    position: absolute;
+    top: 500px;
+}
